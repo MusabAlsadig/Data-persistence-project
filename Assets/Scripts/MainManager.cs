@@ -72,5 +72,6 @@ public class MainManager : MonoBehaviour
     {
         m_GameOver = true;
         GameOverText.SetActive(true);
+        DataManager.Instance.AddScore(m_Points);
     }
 }
